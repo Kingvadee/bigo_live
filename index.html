@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIGO Interview Questionnaire</title>
+    <link rel="stylesheet" href="public/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>BIGO INTERVIEW</h1>
+        <p>Welcome to Resilience agency, the most trusted and reliable agency to guide you on your journey to start earning in dollars. Please ensure to fill in all sections of the questionnaire form below to help our team process your application before the audition and orientation.</p>
+        <form action="https://forms.gle/bxXUKk9o4CJzmY8h8" method="post">
+            <label for="first-name">First name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Last name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="age">How old are you?</label>
+            <input type="date" id="age" name="age" required>
+
+            <label for="phone-number">Phone number:</label>
+            <input type="tel" id="phone-number" name="phone-number" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="location">Location:</label>
+            <input type="location" name="location" required>
+
+            <label>Are you employed?</label>
+            <input type="radio" id="employed-yes" name="employed" value="yes" required> Yes
+            <input type="radio" id="employed-no" name="employed" value="no"> No
+            <label>If "Yes", can you combine your current job with streaming?</label>
+            <input type="radio" id="job-streaming-i-can" name="job-streaming" value="i can" required> I can 
+            <input type="radio" id="job-streaming-i-cant" name="job-streaming" value="i cant"> I can't
+
+            <label for="phone-type">What phone do you use?</label>
+            <input type="text" id="phone-type" name="phone-type" required> 
+           
+            <label>How strong is your internet connection?</label>
+            <input type="range" id="internet-strength" name="internet-strength" min="0" max="10" step="1" required>
+
+            <label>Rate your communication skill</label>
+            <input type="range" id="communication-skills" name="communication-skills" min="0" max="10" step="1" required>
+
+            <label>Do you understand the importance of building a strong community for support?</label>
+            <input type="radio" id="community-understand-yes" name="community-understand" value="yes" required> Yes
+            <input type="radio" id="community-understand-no" name="community-understand" value="no"> No
+            <input type="radio" id="community-understand-maybe" name="community-understand" value="maybe"> Maybe
+
+            <label>Will you be committed to streaming and engaging with your audience?</label>
+            <input type="radio" id="committed-yes" name="committed" value="yes" required> Yes
+            <input type="radio" id="committed-no" name="committed" value="no"> No
+            <input type="radio" id="committed-maybe" name="committed" value="maybe"> Maybe
+
+            <label>Streaming requires much time, the minimum you can think of is 3-5hrs daily. However you may decide to spread the timing through the day, either 'morning and night', 'noon and night', 'late-night and noon', just depending on what works best for you. Do you agree ?</label>
+            <input type="radio" id="streaming-time-strongly-disagree" name="streaming-time" value="streaming-time-strongly-disagree" required> Strongly-disagree
+            <input type="radio" id="streaming-time-Disagree" name="streaming-time" value="streaming-time-Disagree" required> Disagree
+            <input type="radio" id="streaming-time-neutral" name="streaming-time" value="streaming-time-neutral" required> Neutral
+            <input type="radio" id="streaming-time-agree" name="streaming-time" value="streaming-time-agree" required> Agree
+            <input type="radio" id="streaming-time-strongly-agree" name="streaming-time" value="streaming-time-strongly-agree" required> Strongly-agree
+
+            <label>You have to be willing to give yourself at least 3 months to grow your community and understand how to navigate and network on the app. Are you willing to commit?</label>
+            <input type="radio" id="three-months-yes" name="three-months" value="yes" required> Yes
+            <input type="radio" id="three-months-no" name="three-months" value="no"> No
+            <input type="radio" id="three-months-maybe" name="three-months" value="maybe"> Maybe
+
+            <p>Download and sign up on BIGO Live app, send a screenshot of your BIGO profile to the WhatsApp audition group chat. Join the audition group chat with the link below:</p>
+            <a href="https://chat.whatsapp.com/EkdmxEF1Iue032C7GT4hPT" target="_blank">Join the audition group chat</a>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="./public/script.js"></script>
+</body>
+</html>
